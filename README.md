@@ -70,8 +70,10 @@ $ npm start
 ```
 
 
-
-
+## Contributors
+- [KirstenFischl](https://github.com/kirstenfischl)
+- [MiaCurtopelle](https://github.com/MiaNYC)
+- [TajahneiWilliams](https://github.com/tajahnei)
 
 
 
