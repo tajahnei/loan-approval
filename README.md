@@ -1,2 +1,1 @@
-# loan-approval
- 
+# credit-classification
