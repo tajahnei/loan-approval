@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Predict Insurance Bill</title>
+  <title>Predict Loan Approval</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -13,16 +13,16 @@
 
 <body>
  <div class="login">
-	<h1>Predict Insurance Bill</h1>
+	<h1>Predict Loan Approval</h1>
 
      <!-- Form to enter new data for predictions  -->
     <form action="{{ url_for('predict')}}"method="POST">
-      <input type="text" name="age" placeholder="Age" required="required" /><br>
-    	<input type="text" name="sex" placeholder="Sex" required="required" /><br>
-        <input type="text" name="bmi" placeholder="BMI" required="required" /><br>
-        <input type="text" name="children" placeholder="Children" required="required" /><br>
-        <input type="text" name="smoker" placeholder="Smoker" required="required" /><br>
-        <input type="text" name="region" placeholder="Region" required="required" /><br>
+      <input type="text" name="account_status" placeholder="$0 - $119.90 & up" required="required" /><br>
+    	<input type="text" name="personal_status_sex" placeholder="Sex/Marital Status" required="required" /><br>
+        <input type="text" name="credit_amount" placeholder="Credit Amount" required="required" /><br>
+        <input type="text" name="age" placeholder="Age" required="required" /><br>
+        <input type="text" name="housing" placeholder="Rent/Own/For Free" required="required" /><br>
+        
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
@@ -36,3 +36,27 @@
 
 </body>
 </html>
+
+
+['account_status',
+ 'duration',
+ 'credit_history',
+ 'purpose',
+ 'credit_amount',
+ 'savings_account',
+ 'unemployed',
+ 'installment_rate',
+ 'personal_status_sex',
+ 'debtors/guarantors',
+ 'present_residence_since',
+ 'property',
+ 'age',
+ 'other_installment_plans',
+ 'housing',
+ 'credits',
+ 'job',
+ 'liable_for',
+ 'telephone',
+ 'foreign_worker']
+
+

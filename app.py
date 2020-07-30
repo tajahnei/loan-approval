@@ -6,8 +6,27 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = load_model('deployment_28042020')
-cols = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
+model = load_model('Final RF Model 29July2020')
+cols = ['account_status',
+ 'duration',
+ 'credit_history',
+ 'purpose',
+ 'credit_amount',
+ 'savings_account',
+ 'unemployed',
+ 'installment_rate',
+ 'personal_status_sex',
+ 'debtors/guarantors',
+ 'present_residence_since',
+ 'property',
+ 'age',
+ 'other_installment_plans',
+ 'housing',
+ 'credits',
+ 'job',
+ 'liable_for',
+ 'telephone',
+ 'foreign_worker']
 
 @app.route('/')
 def home():
