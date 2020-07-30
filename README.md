@@ -1,73 +1,20 @@
-<h1 align="center">
-  <br>
-  <a href="replacewithurl"><img src="https://replaceimage.png" alt="loanapproval" width="200"></a>
-  <br>
-  Replace Text
-  <br>
-</h1>
+### Loan Approval Machine Learning Project
 
-<h4 align="center">Replace Text <a href="http://electron.atom.io" target="_blank">Replace Text</a>.</h4>
+Dataset from a German bank regarding customers applying for a loan
+N = 1,000
+20 attributes (numerical and qualitative)
+Status of existing checking account, duration of checking account life, credit history, purpose of application, credit amount, savings account/bonds, employment, installment rate in percentage of disposable income, personal status and sex, other debtors, present resident since, property, age, other installment plans, housing, existing credits at this bank, job, number of people liable to provide maintenance for, telephone, and foreign worker
+Two outcome classes (good or bad customer)
 
-<p align="center">
-  <a href="https://replace.url">
-    <img src="https://replaceimage.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://replace.url"><img src="https://replaceimage.svg"></a>
-  <a href="https://saythanks.io/to/amitmerchant1990">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/replacepaypal">
-    <img src="https://replacedonateurl">
-  </a>
-</p>
+## Approach
 
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
-</p>
+Supervised
+Binary classification
+Three tested models
+Support vector model (linear)
+Logistic regression
+Random forest
 
-## Key Features
-
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
 
 
 ## Contributors
