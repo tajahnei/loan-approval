@@ -36,6 +36,13 @@ This software uses the following open source packages:
 - Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
 - [highlight.js](https://highlightjs.org/)
 
+pycaret==1.0.0
+Flask==1.1.1
+Jinja2==2.10.1
+gunicorn==19.9.0
+certifi==2019.11.28
+itsdangerous==1.1.0
+
 
 
 
